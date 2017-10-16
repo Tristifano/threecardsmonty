@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB93AF81F9539FB0019236E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB93AF71F9539FB0019236E /* AppDelegate.swift */; };
+		FAB93AFA1F9539FB0019236E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB93AF91F9539FB0019236E /* ViewController.swift */; };
+		FAB93AFD1F9539FB0019236E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB93AFB1F9539FB0019236E /* Main.storyboard */; };
+		FAB93AFF1F9539FB0019236E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB93AFE1F9539FB0019236E /* Assets.xcassets */; };
+		FAB93B021F9539FB0019236E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB93B001F9539FB0019236E /* LaunchScreen.storyboard */; };
+		FAB93B0D1F9539FB0019236E /* Three_Card_MontyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB93B0C1F9539FB0019236E /* Three_Card_MontyTests.swift */; };
+		FAB93B181F9539FB0019236E /* Three_Card_MontyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB93B171F9539FB0019236E /* Three_Card_MontyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB93B091F9539FB0019236E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB93AEC1F9539FB0019236E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB93AF31F9539FB0019236E;
+			remoteInfo = "Three Card Monty";
+		};
+		FAB93B141F9539FB0019236E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB93AEC1F9539FB0019236E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB93AF31F9539FB0019236E;
+			remoteInfo = "Three Card Monty";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB93AF41F9539FB0019236E /* Three Card Monty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Card Monty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB93AF71F9539FB0019236E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB93AF91F9539FB0019236E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB93AFC1F9539FB0019236E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB93AFE1F9539FB0019236E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB93B011F9539FB0019236E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB93B031F9539FB0019236E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB93B081F9539FB0019236E /* Three Card MontyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Card MontyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB93B0C1F9539FB0019236E /* Three_Card_MontyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Card_MontyTests.swift; sourceTree = "<group>"; };
+		FAB93B0E1F9539FB0019236E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB93B131F9539FB0019236E /* Three Card MontyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Card MontyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB93B171F9539FB0019236E /* Three_Card_MontyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Three_Card_MontyUITests.swift; sourceTree = "<group>"; };
+		FAB93B191F9539FB0019236E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB93AF11F9539FB0019236E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB93B051F9539FB0019236E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB93B101F9539FB0019236E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB93AEB1F9539FB0019236E = {
+			isa = PBXGroup;
+			children = (
+				FAB93AF61F9539FB0019236E /* Three Card Monty */,
+				FAB93B0B1F9539FB0019236E /* Three Card MontyTests */,
+				FAB93B161F9539FB0019236E /* Three Card MontyUITests */,
+				FAB93AF51F9539FB0019236E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB93AF51F9539FB0019236E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB93AF41F9539FB0019236E /* Three Card Monty.app */,
+				FAB93B081F9539FB0019236E /* Three Card MontyTests.xctest */,
+				FAB93B131F9539FB0019236E /* Three Card MontyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB93AF61F9539FB0019236E /* Three Card Monty */ = {
+			isa = PBXGroup;
+			children = (
+				FAB93AF71F9539FB0019236E /* AppDelegate.swift */,
+				FAB93AF91F9539FB0019236E /* ViewController.swift */,
+				FAB93AFB1F9539FB0019236E /* Main.storyboard */,
+				FAB93AFE1F9539FB0019236E /* Assets.xcassets */,
+				FAB93B001F9539FB0019236E /* LaunchScreen.storyboard */,
+				FAB93B031F9539FB0019236E /* Info.plist */,
+			);
+			path = "Three Card Monty";
+			sourceTree = "<group>";
+		};
+		FAB93B0B1F9539FB0019236E /* Three Card MontyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB93B0C1F9539FB0019236E /* Three_Card_MontyTests.swift */,
+				FAB93B0E1F9539FB0019236E /* Info.plist */,
+			);
+			path = "Three Card MontyTests";
+			sourceTree = "<group>";
+		};
+		FAB93B161F9539FB0019236E /* Three Card MontyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB93B171F9539FB0019236E /* Three_Card_MontyUITests.swift */,
+				FAB93B191F9539FB0019236E /* Info.plist */,
+			);
+			path = "Three Card MontyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB93AF31F9539FB0019236E /* Three Card Monty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB93B1C1F9539FB0019236E /* Build configuration list for PBXNativeTarget "Three Card Monty" */;
+			buildPhases = (
+				FAB93AF01F9539FB0019236E /* Sources */,
+				FAB93AF11F9539FB0019236E /* Frameworks */,
+				FAB93AF21F9539FB0019236E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Card Monty";
+			productName = "Three Card Monty";
+			productReference = FAB93AF41F9539FB0019236E /* Three Card Monty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB93B071F9539FB0019236E /* Three Card MontyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB93B1F1F9539FB0019236E /* Build configuration list for PBXNativeTarget "Three Card MontyTests" */;
+			buildPhases = (
+				FAB93B041F9539FB0019236E /* Sources */,
+				FAB93B051F9539FB0019236E /* Frameworks */,
+				FAB93B061F9539FB0019236E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB93B0A1F9539FB0019236E /* PBXTargetDependency */,
+			);
+			name = "Three Card MontyTests";
+			productName = "Three Card MontyTests";
+			productReference = FAB93B081F9539FB0019236E /* Three Card MontyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAB93B121F9539FB0019236E /* Three Card MontyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB93B221F9539FB0019236E /* Build configuration list for PBXNativeTarget "Three Card MontyUITests" */;
+			buildPhases = (
+				FAB93B0F1F9539FB0019236E /* Sources */,
+				FAB93B101F9539FB0019236E /* Frameworks */,
+				FAB93B111F9539FB0019236E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB93B151F9539FB0019236E /* PBXTargetDependency */,
+			);
+			name = "Three Card MontyUITests";
+			productName = "Three Card MontyUITests";
+			productReference = FAB93B131F9539FB0019236E /* Three Card MontyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB93AEC1F9539FB0019236E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Macbook;
+				TargetAttributes = {
+					FAB93AF31F9539FB0019236E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FAB93B071F9539FB0019236E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAB93AF31F9539FB0019236E;
+					};
+					FAB93B121F9539FB0019236E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAB93AF31F9539FB0019236E;
+					};
+				};
+			};
+			buildConfigurationList = FAB93AEF1F9539FB0019236E /* Build configuration list for PBXProject "Three Card Monty" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB93AEB1F9539FB0019236E;
+			productRefGroup = FAB93AF51F9539FB0019236E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB93AF31F9539FB0019236E /* Three Card Monty */,
+				FAB93B071F9539FB0019236E /* Three Card MontyTests */,
+				FAB93B121F9539FB0019236E /* Three Card MontyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB93AF21F9539FB0019236E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB93B021F9539FB0019236E /* LaunchScreen.storyboard in Resources */,
+				FAB93AFF1F9539FB0019236E /* Assets.xcassets in Resources */,
+				FAB93AFD1F9539FB0019236E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB93B061F9539FB0019236E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB93B111F9539FB0019236E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB93AF01F9539FB0019236E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB93AFA1F9539FB0019236E /* ViewController.swift in Sources */,
+				FAB93AF81F9539FB0019236E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB93B041F9539FB0019236E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB93B0D1F9539FB0019236E /* Three_Card_MontyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB93B0F1F9539FB0019236E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB93B181F9539FB0019236E /* Three_Card_MontyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB93B0A1F9539FB0019236E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB93AF31F9539FB0019236E /* Three Card Monty */;
+			targetProxy = FAB93B091F9539FB0019236E /* PBXContainerItemProxy */;
+		};
+		FAB93B151F9539FB0019236E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB93AF31F9539FB0019236E /* Three Card Monty */;
+			targetProxy = FAB93B141F9539FB0019236E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB93AFB1F9539FB0019236E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB93AFC1F9539FB0019236E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB93B001F9539FB0019236E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB93B011F9539FB0019236E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB93B1A1F9539FB0019236E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB93B1B1F9539FB0019236E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB93B1D1F9539FB0019236E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Three Card Monty/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.ac4.1.Three-Card-Monty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB93B1E1F9539FB0019236E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Three Card Monty/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.ac4.1.Three-Card-Monty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAB93B201F9539FB0019236E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Three Card MontyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.ac4.1.Three-Card-MontyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Card Monty.app/Three Card Monty";
+			};
+			name = Debug;
+		};
+		FAB93B211F9539FB0019236E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Three Card MontyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.ac4.1.Three-Card-MontyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Three Card Monty.app/Three Card Monty";
+			};
+			name = Release;
+		};
+		FAB93B231F9539FB0019236E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Three Card MontyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.ac4.1.Three-Card-MontyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Three Card Monty";
+			};
+			name = Debug;
+		};
+		FAB93B241F9539FB0019236E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Three Card MontyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nyc.c4q.ac4.1.Three-Card-MontyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Three Card Monty";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB93AEF1F9539FB0019236E /* Build configuration list for PBXProject "Three Card Monty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB93B1A1F9539FB0019236E /* Debug */,
+				FAB93B1B1F9539FB0019236E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB93B1C1F9539FB0019236E /* Build configuration list for PBXNativeTarget "Three Card Monty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB93B1D1F9539FB0019236E /* Debug */,
+				FAB93B1E1F9539FB0019236E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB93B1F1F9539FB0019236E /* Build configuration list for PBXNativeTarget "Three Card MontyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB93B201F9539FB0019236E /* Debug */,
+				FAB93B211F9539FB0019236E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB93B221F9539FB0019236E /* Build configuration list for PBXNativeTarget "Three Card MontyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB93B231F9539FB0019236E /* Debug */,
+				FAB93B241F9539FB0019236E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB93AEC1F9539FB0019236E /* Project object */;
+}
